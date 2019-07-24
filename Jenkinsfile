@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'git@github.com:kiticonbit/for_ht_docker.git'
+        git 'https://github.com/kiticonbit/for_ht_docker.git'
       }
     }
     stage('Building image') {
